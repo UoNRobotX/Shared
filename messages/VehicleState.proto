@@ -1,0 +1,11 @@
+message VehicleState {
+    vec3f rBNn = 1;
+    vec4f thetanb = 2;
+    vec3f vBNb = 3;
+    vec3f omeganb = 4;
+
+    vec3f PrBNn = 5;
+    vec4f Pthetanb = 6;
+    vec3f PvBNb = 7;
+    vec3f Pomeganb = 8;
+}

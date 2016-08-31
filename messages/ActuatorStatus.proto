@@ -1,0 +1,4 @@
+messgae ActuatorStatus {
+    bool motor1_enabled = 1;
+    bool motor2_enabled = 2;
+}

@@ -1,0 +1,4 @@
+message Battery{
+    float voltage1 = 1;
+    float voltage2 = 2;
+}

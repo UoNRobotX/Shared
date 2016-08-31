@@ -1,0 +1,3 @@
+message Parameters {
+    map<string,string> values;
+}

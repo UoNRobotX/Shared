@@ -1,0 +1,14 @@
+message Waypoint {
+    suint32 latitude = 1;
+    suint32 longitude = 2;
+
+    enum Action {
+        GOTO_NEXT = 0;
+        STOP = 1;
+    }
+}
+
+message Mission {
+    string name = 1;
+    list<Waypoint> waypoints = 2;
+}
